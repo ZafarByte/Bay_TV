@@ -217,6 +217,9 @@ input {
   .home__data-title,.home__data-subtitle{
     text-align: center;
   }
+  .home__data{
+    text-align: center;
+  }
 }
 
 .nav__list {
