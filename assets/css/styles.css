@@ -221,7 +221,11 @@ input {
     text-align: center;
   }
   .paragraph{
-    margin-right: 20%;
+    padding-left: 20px;
+    width: 100%;
+  }
+  .home-des{
+    width: 100%;
   }
 }
 
@@ -299,7 +303,10 @@ input {
   align-content: center;
   row-gap: 3rem;
 }
-
+.home-desc{
+  color: #fff;
+  width: 350px;
+}
 .home__data-subtitle, 
 .home__data-title, 
 .home__social-link, 
