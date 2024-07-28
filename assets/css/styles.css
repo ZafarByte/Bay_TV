@@ -214,6 +214,9 @@ input {
     padding: 3rem;
     transition: .4s;
   }
+  .home__data-title{
+    text-align: center;
+  }
 }
 
 .nav__list {
@@ -566,7 +569,21 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
   border-bottom-right-radius: 20px;
 }
 
-/*=============== SPONSORS ===============*/
+/*=============== CHANNEL ===============*/
+.channel{
+  padding-top: 30px;
+}
+.channel-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.channel-container{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
 
 /*=============== FOOTER ===============*/
 .footer__container {
