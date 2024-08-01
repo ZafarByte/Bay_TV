@@ -214,19 +214,6 @@ input {
     padding: 3rem;
     transition: .4s;
   }
-  .home__data-title,.home__data-subtitle{
-    text-align: center;
-  }
-  .home__data{
-    text-align: center;
-  }
-  .paragraph{
-    padding-left: 20px;
-    width: 100%;
-  }
-  .home-des{
-    width: 100%;
-  }
 }
 
 .nav__list {
@@ -303,10 +290,7 @@ input {
   align-content: center;
   row-gap: 3rem;
 }
-.home-desc{
-  color: #fff;
-  width: 320px;
-}
+
 .home__data-subtitle, 
 .home__data-title, 
 .home__social-link, 
@@ -568,36 +552,148 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
   padding: 5px 20px;
   font-weight: bold;
 }
-
-/*=============== Contact us ===============*/
-.contact-us-container{
+/*=============================channel===============*/
+.channels{
+  width: 100%;
+  height: 100%;
+  margin: 30px auto;
+}
+.channel-container{
   width: 80%;
-  margin: auto auto;
+  margin: auto;
+}
+.accordion{
   display: flex;
+  width: 100%;
+ justify-content: space-around;
+  background: #FFF;
+  margin:0 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.accordion .accordion-content{
+  margin:10px 0;
+  width: 350px;
+  border-radius: 5px;
+  background-color: #E68728;
+  border-color: #af948b;
+  overflow: hidden;
+}
+
+.accordion-content.is-open{
+  padding-bottom: 10px;
+}
+.accordion-content header{
+  display:flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition:all 0.2s linear;
+}
+.accordion-content.is-open header{
+  min-height: 35px;
+}
+.accordion-content-title{
+  font-size: 1rem;
+  font-weight: 600;
+  color:#000000;
+}
+.accordion-content-description{
+  height:0;
+  font-size: 13px;
+  color:#000000;
+  font-weight: 400;
+  padding: 0 15px;
+}
+
+
+
+.contact-us-container{
+  width: 70%;
+  margin: auto auto 30px auto;
+  display: flex;
+  -webkit-box-shadow: -1px 3px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 20px -3px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 20px -3px rgba(0,0,0,0.75);
 }
 .form-area{
-  border: 1px solid #000;
-  padding: 50px 150px 50px 30px;
+ 
+  padding: 50px 150px 40px 30px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
-/*=============== CHANNEL ===============*/
-.channel{
-  padding-top: 30px;
+.form-area p{
+  margin-bottom: 10px;
 }
-.channel-list{
-  display: flex;
-  flex-wrap: wrap;
+.form-area input{
+  margin-bottom: 10px;
 }
-.channel-container{
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
-  margin-bottom: 40px;
+/* Input container */
+.input-container {
+  position: relative;
+  margin: 20px 0px ;
 }
 
+/* Input field */
+.input-field {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Input label */
+.input-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: rgba(204, 204, 204, 0);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+textarea{
+  resize: none;
+  margin-top: 20px;
+}
+/* Input highlight */
+.input-highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #DA6900;
+  transition: all 0.3s ease;
+}
+
+/* Input field:focus styles */
+.input-field:focus + .input-label {
+  top: -20px;
+  font-size: 12px;
+  color: #DA6900;
+}
+
+.input-field:focus + .input-label + .input-highlight {
+  width: 100%;
+}
+.form-area a{
+  text-decoration: none;
+  background-color:#DA6900;
+  color: #fff;
+  padding: 10px 55px;
+ 
+  text-align: center;
+  border-radius: 8px;
+}
 /*=============== FOOTER ===============*/
 .footer__container {
   row-gap: 5rem;

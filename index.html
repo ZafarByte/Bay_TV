@@ -1,346 +1,1508 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <script src="https://kit.fontawesome.com/71f49ecb98.js" crossorigin="anonymous"></script>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <title>Baytv</title>
-    </head>
-    <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <img src="assets/img/logo-nav-removebg-preview.png" class="nav__logo"></img>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/71f49ecb98.js" crossorigin="anonymous"></script>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About us</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#discover" class="nav__link">Feature</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#pricing" class="nav__link">Pricing</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#place" class="nav__link">Contact us</a>
-                        </li>
-                    </ul>
+    <title>Baytv</title>
+</head>
 
-               
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <img src="assets/img/logo-nav-removebg-preview.png" class="nav__logo"></img>
 
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Feature</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Contact us</a>
+                    </li>
+                </ul>
+
+
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/bg-1.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Your Favorite</span>
+                    <h1 class="home__data-title"> <b>MOVIES <br>& SHOWS </b></h1>
+                    <p class="paragraph">You can follow any channel available on the internet. This also includes shows
+                        and screens on Netflix, Hulu, Amazon Prime Instant Video, and HBO.</p>
+                    <a href="#" class="button">Shop Now</a>
+
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
                 </div>
-            </nav>
-        </header>
 
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home" id="home">
-                <img src="assets/img/bg-1.jpg" alt="" class="home__img">
 
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <span class="home__data-subtitle">Your Favorite</span>
-                        <h1 class="home__data-title"> <b>MOVIES <br>& SHOWS  </b></h1>
-                        <p class="about__description home-desc">You can follow any channel available on the internet. This also includes shows and screens on Netflix, Hulu, Amazon Prime Instant Video, and HBO.</p>
-                        <a href="#" class="button">Shop Now</a>
+            </div>
+            </div>
+        </section>
 
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title"> <br> About <b>us</b></h2>
+                    <p class="about__description">
+                        BAY TV is a USA-based provider of Indian TV channels, offering multi-language content globally.
+                        As a major entertainment source for Indian immigrants and TV lovers, they focus on long-term
+                        customer relationships, providing exceptional and affordable services. Their glitch-free, 4K UHD
+                        streaming is supported by strategically located data centers in California, ensuring live
+                        streaming without delays or freezes. BAY TV aims to revolutionize the television viewing
+                        experience, promising an advanced and enjoyable alternative to local cable operators.
+                    </p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about-1.jpg" alt="" class="about__img-one">
                     </div>
 
-                  
-
-                    
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about-2.jpg" alt="" class="about__img-two">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <div class="about__container container grid">
-                    <div class="about__data">
-                        <h2 class="section__title about__title"> <br> About <b>us</b></h2>
-                        <p class="about__description">
-                            BAY TV is a USA-based provider of Indian TV channels, offering multi-language content globally. As a major entertainment source for Indian immigrants and TV lovers, they focus on long-term customer relationships, providing exceptional and affordable services. Their glitch-free, 4K UHD streaming is supported by strategically located data centers in California, ensuring live streaming without delays or freezes. BAY TV aims to revolutionize the television viewing experience, promising an advanced and enjoyable alternative to local cable operators.
-                        </p>
-                        <a href="#" class="button">Shop now</a>
+        <!--==================== FEATURE ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Why Choose <b>BAY TV?</b></h2>
+
+            <div class="Feature-section">
+
+                <div class="card-wrap">
+                    <div class="Feature-card">
+                        <img src="assets/img/highspeed.png" alt="">
+                        <h1>Highspeed Connection</h1>
+                    </div>
+                    <div class="Feature-card">
+                        <img src="assets/img/channel.png" alt="">
+                        <h1>5000+ channel</h1>
+                    </div>
+                    <div class="Feature-card">
+                        <img src="assets/img/settings.png" alt="">
+                        <h1>Free Installation</h1>
+                    </div>
+                    <div class="Feature-card">
+                        <img src="assets/img/4k.png" alt="">
+                        <h1>4K and 8K Resolution</h1>
+                    </div>
+                    <div class="Feature-card">
+                        <img src="assets/img/pan.png" alt="">
+                        <h1>Flexible Tarrif</h1>
+                    </div>
+                    <div class="Feature-card">
+                        <img src="assets/img/support.png" alt="">
+                        <h1>Fast support</h1>
                     </div>
 
-                    <div class="about__img">
-                        <div class="about__img-overlay">
-                            <img src="assets/img/about-1.jpg" alt="" class="about__img-one">
-                        </div>
-
-                        <div class="about__img-overlay">
-                            <img src="assets/img/about-2.jpg" alt="" class="about__img-two">
-                        </div>
-                    </div>
                 </div>
-            </section>
-            
-            <!--==================== FEATURE ====================-->
-            <section class="discover section" id="discover">
-                <h2 class="section__title">Why Choose <b>BAY TV?</b></h2>
-                
-                <div class="Feature-section">
-                    
-                       <div class="card-wrap">
-                        <div class="Feature-card">
-                            <img src="assets/img/highspeed.png" alt="">
-                            <h1>Highspeed Connection</h1>
-                        </div>
-                        <div class="Feature-card">
-                            <img src="assets/img/channel.png" alt="">
-                            <h1>5000+ channel</h1>
-                        </div>
-                        <div class="Feature-card">
-                            <img src="assets/img/settings.png" alt="">
-                            <h1>Free Installation</h1>
-                        </div>
-                        <div class="Feature-card">
-                            <img src="assets/img/4k.png" alt="">
-                            <h1>4K and 8K Resolution</h1>
-                        </div>
-                        <div class="Feature-card">
-                            <img src="assets/img/pan.png" alt="">
-                            <h1>Flexible Tarrif</h1>
-                        </div>
-                        <div class="Feature-card">
-                            <img src="assets/img/support.png" alt="">
-                            <h1>Fast support</h1>
-                        </div>
-                       
-                   </div>
-                </div>
-            </section>
-          <!--=========================Channels===============================-->
-          <!--div class="channel">
+            </div>
+        </section>
+        <!--======================Channel detail=============================-->
+        <div class="channels">
             <div class="channel-container">
-                <h2 class="section__title">Multi-Cultural <b>Channels</b></h2>
-                <div class="lists">
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDICHANNEL</a>
-                    <BR></BR>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                    <a href="#">HINDI CHANNEL</a>
-                </div>
-            </div>
-          </div>
-          <!--======================Pricing===================================-->
-            <div class="pricing">
-                <h2 class="section__title">Our Pricing <b>Plans</b></h2>
-                <div class="pricing-card-container">
-                    <div class="normal-card card">
-                       <h2>Monthly</h2>
-                        <h1>$20</h1>
-                        
-                        <div class="list-feature">
-                            <p><i class="fa-solid fa-check"></i> 12,000+ TV Channels, Movies & Series</p>
-                            <p><i class="fa-solid fa-check"></i> 4K / Ultra HD Picture Quality</p>
-                            <p><i class="fa-solid fa-check"></i> FREE Channels & VOD updates</p>
-                            <p><i class="fa-solid fa-check"></i> 99.9% Server Uptime</p>
-                            <p><i class="fa-solid fa-check"></i>  Non-Contractual Service</p>
-                            <p><i class="fa-solid fa-check"></i> Anti Freeze Technology</p>
-                            <p><i class="fa-solid fa-check"></i> Netflix, Amazon Prime, Hotstar, Aha recorded</p>
-                            <p><i class="fa-solid fa-check"></i> 7 Days Catch Up / EPG for All Indian, US, UK and European Channels</p>
+                <h2 class="section__title">Channel <b>we provide</b></h2>
+                <div class="accordion">
+                  
+                    <div class="col-1">
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    HINDI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            
+                                 <ul class="accordion-content-description">
+                                    <li>Zee TV HD USA</li>
+                                    <li>Sony HD USA</li>
+                                    <li>Star Plus HD USA</li>
+                                    <li>Apka Colors HD USA</li>
+                                    <li>Life OK USA</li>
+                                    <li>Rishtey USA</li>
+                                    <li>Sony Max HD</li>
+                                    <li>SAB TV</li>
+                                 </ul>
+                           
                         </div>
-                       
-                        <a href="#">Choose Plan</a>
-                    </div>
-                    <div class="special-card card">
-                        <div class="corner-label">Best Plan</div>
-                        <h2>Yearly</h2>
-                         <h1>$240</h1>
-                         
-                         <div class="list-feature">
-                             <p><i class="fa-solid fa-check"></i> 12,000+ TV Channels, Movies & Series</p>
-                             <p><i class="fa-solid fa-check"></i> 4K / Ultra HD Picture Quality</p>
-                             <p><i class="fa-solid fa-check"></i> FREE Channels & VOD updates</p>
-                             <p><i class="fa-solid fa-check"></i> 99.9% Server Uptime</p>
-                             <p><i class="fa-solid fa-check"></i>  Non-Contractual Service</p>
-                             <p><i class="fa-solid fa-check"></i> Anti Freeze Technology</p>
-                             <p><i class="fa-solid fa-check"></i> Netflix, Amazon Prime, Hotstar, Aha recorded</p>
-                             <p><i class="fa-solid fa-check"></i> 7 Days Catch Up / EPG for All Indian, US, UK and European Channels</p>
-                         </div>
-
-                         <a href="#">Choose Plan</a>
-                     </div>
-                     <div class="normal-card card">
-                        <h2>Yearly+</h2>
-                         <h1>$500</h1>
-                         
-                        <div class="list-feature">
-                             <p><i class="fa-solid fa-check"></i> 12,000+ TV Channels, Movies & Series</p>
-                             <p><i class="fa-solid fa-check"></i> 4K / Ultra HD Picture Quality</p>
-                             <p><i class="fa-solid fa-check"></i> FREE Channels & VOD updates</p>
-                             <p><i class="fa-solid fa-check"></i> 99.9% Server Uptime</p>
-                             <p><i class="fa-solid fa-check"></i>  Non-Contractual Service</p>
-                             <p><i class="fa-solid fa-check"></i> Netflix, Amazon Prime, Hotstar, Aha recorded</p>
-                             <p><i class="fa-solid fa-check"></i> Works on 3 devices</p>
-                             <p><i class="fa-solid fa-check"></i> 7 Days Catch Up / EPG for All Indian, US, UK and European Channels</p>
-                         </div>
-
-                         <a href="#">Choose Plan</a>
-                     </div>
-                   
-                </div>
-            </div>
-  
-
-            
-
-            <!--==================== SUBSCRIBE ====================-->
-             <div class="contact-us">
-                <h2 class="section__title">Contact <b>Us</b></h2>
-                    <div class="contact-us-container">
-                        <div class="map-area">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.2687235438807!2d-118.11192322518991!3d33.9599319226005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d20afd88fa93%3A0xfa901e2187f5ce19!2s9040%20Telegraph%20Rd%2C%20Downey%2C%20CA%2090240%2C%20USA!5e0!3m2!1sen!2sin!4v1722152143875!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    PUNJABI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                                <ul class="accordion-content-description">
+                                    <li>Jus Punjabi USA</li>
+                                    <li>PTC Punjabi USA</li>
+                                    <li>Zee Punjab-Haryana</li>
+                                    <li>Prime Asia HD</li>
+                                    <li>7s Music HD</li>
+                                    <li>Global Punjab HD</li>
+                                    <li>PTC News</li>
+                                    <li>PTC Chakde</li>
+                                    <li>Channel</li>
+                                    <li>Punjabi Beats HD</li>
+                                </ul>
                         </div>
-                        <div class="form-area">
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    MARATHI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Zee Yuva</li>
+                                <li>Star Pravah US</li>
+                                <li>Star Pravah</li>
+                                <li>Zee Marathi US</li>
+                                <li>Zee Marathi</li>
+                                <li>Colors Marathi</li>
+                                <li>Colors Marathi UK</li>
+                                <li>Zee Talkies US</li>
+                                <li>Zee Talkies</li>
+                                <li>9x Jhakaas</li>
+                                <li>24 Tass</li>
+                                <li>ABP Majha</li>
+                                <li>Star Pravah HD India</li>
+                                <li>Colors Marathi HD India</li>
+                                <li>Zee Marathi HD India</li>
+                                <li>Zee Talkies HD India</li>
+                                <li>Jai Maharashtra</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    TELUGU CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Gemini TV</li>
+                                <li>Gemini Movies</li>
+                                <li>Gemini TV US</li>
+                                <li>Vissa</li>
+                                <li>Maa Movies</li>
+                                <li>Maa Gold</li>
+                                <li>Maa Movies US</li>
+                                <li>Mahaa TV</li>
+                                <li>T News</li>
+                                <li>Bhakti TV</li>
+                                <li>Rakshana TV</li>
+                                <li>Vanitha TV</li>
+                                <li>ETV Telugu</li>
+                                <li>Gemini Comedy</li>
+                                <li>Calvary TV</li>
+                                <li>Zee Telugu</li>
+                                <li>Maa TV</li>
+                                <li>ETV Andhra Pradesh</li>
+                                <li>Maa TV US</li>
+                                <li>Zee Telugu US</li>
+                                <li>1001 TV 1 News Telugu 1</li>
+                                <li>1002 6TV Telangana 2</li>
+                                <li>1003 Pooja TV 3</li>
+                                <li>1004 SVBC 4</li>
+                                <li>1005 Maa Music 5</li>
+                                <li>1007 Zee Telugu 6</li>
+                                <li>1008 Maa TV 7</li>
+                                <li>1009 ETV Andhra Pradesh 8</li>
+                                <li>1010 Maa TV US 9</li>
+                                <li>1011 Zee Telugu US 10</li>
+                                <li>1013 HMTV 11</li>
+                                <li>1014 Sakshi TV 12</li>
+                                <li>1015 Studio N 13</li>
+                                <li>1016 Raj News 14</li>
+                                <li>1017 TV 5 15</li>
+                                <li>1018 Gemini TV 16</li>
+                                <li>1019 Gemini Movies 17</li>
+                                <li>1020 Gemini TV US 18</li>
+                                <li>1022 Vissa 19</li>
+                                <li>1023 Maa Movies 20</li>
+                                <li>1024 Maa Gold 21</li>
+                                <li>1025 Maa Movies US 22</li>
+                                <li>1026 Maha TV 23</li>
+                                <li>1027 T News 24</li>
+                                <li>1028 Bhakti TV
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    BENGALI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Deshi TV Bangla</li>
+                                <li>NRB</li>
+                                <li>Channel 9</li>
+                                <li>Sony Aath</li>
+                                <li>Zee Bangla Cinema</li>
+                                <li>Zee Bangla HD</li>
+                                <li>Colors Bangla HD</li>
+                                <li>Star Jalsha HD</li>
+                                <li>Jalsha Movies HD</li>
+                                <li>Gazi TV</li>
+                                <li>Sony Aath USA</li>
+                                <li>NTV Bangla</li>
+                                <li>Tara Muzik</li>
+                                <li>ABP Ananda</li>
+                                <li>Colors Bangla</li>
+                                <li>Star Jalsha</li>
+                                <li>Zee Bangla UK</li>
+                                <li>Ruposhi Bangla USA</li>
+                                <li>Channeli</li>
+                                <li>Dhoom Music</li>
+                                <li>24 Ghanta</li>
+                                <li>News Time</li>
+                                <li>Sangeet Bangla</li>
+                                <li>Zee Bangla US</li>
+                                <li>Star Jalsha US</li>
+                                <li>Ruposhi Bangla UK</li>
+                                <li>Colors Bangla UK</li>
+                                <li>ETV Bangla</li>
+                                <li>UV Studio</li>
+                                <li>Akash Bangla</li>
+                                <li>Bangla Vision</li>
+                                <li>Asian TV</li>
+                                <li>ATN Bangla</li>
+                                <li>ATN News</li>
+                                <li>ATN Music</li>
+                                <li>ATN Islamic</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    MALAYALAM CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Media One TV</li>
+                                <li>Kaumudy TV</li>
+                                <li>Goodnews TV</li>
+                                <li>Kerala Vision</li>
+                                <li>Manorama News</li>
+                                <li>Mazhavil Manorama</li>
+                                <li>Flowers TV</li>
+                                <li>Surya TV</li>
+                                <li>Surya TV US</li>
+                                <li>Asia Net News</li>
+                                <li>Raj Music Malayalam</li>
+                                <li>Jeevan TV</li>
+                                <li>People TV</li>
+                                <li>Amrita TV</li>
+                                <li>We TV Malayalam</li>
+                                <li>Asianet TV</li>
+                                <li>Asianet Plus</li>
+                                <li>Jaihind TV</li>
+                                <li>Kiran TV</li>
+                                <li>Asianet TV US</li>
+                                <li>Asianet Plus US</li>
+                                <li>Kiran TV US</li>
+                                <li>Reporter TV</li>
+                                <li>Shalom TV</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    KANNADA CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Udaya Movies</li>
+                                <li>News 9</li>
+                                <li>Suvarna News 24×7</li>
+                                <li>Udaya TV</li>
+                                <li>Udaya TV US</li>
+                                <li>Raj Music Kannada</li>
+                                <li>Suvarna TV</li>
+                                <li>Suvarna TV US</li>
+                                <li>Zee Kannada</li>
+                                <li>Zee Kannada US</li>
+                                <li>Janasri News</li>
+                                <li>Sri Sankara Kannada</li>
+                                <li>Public TV</li>
+                                <li>Colors Kannada US</li>
+                                <li>Suvarna TV UK</li>
+                                <li>Colors Kannada UK</li>
+                            </ul>
                             
                         </div>
                     </div>
-             </div>
-            <!--==================== SPONSORS ====================-->
-           
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content grid">
-                    <div class="footer__data">
-                        <h3 class="footer__title">Bay TV</h3>
-                        <p class="footer__description">Satisfy your curiosity and give us a try
-                        </p>
-                        <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
-                            </a>
-                            <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
-                                <i class="ri-youtube-fill"></i>
-                            </a>
+                    <div class="col-2">
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    TAMIL CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Sun TV India HD</li>
+                                <li>KTV India HD</li>
+                                <li>Star Vijay India HD</li>
+                                <li>Sun Music India HD</li>
+                                <li>Jaya Max India</li>
+                                <li>Raj TV India</li>
+                                <li>Star Vijay Super India</li>
+                                <li>Zee Tamil India</li>
+                                <li>Puthiya Thalaimurai</li>
+                                <li>News7 Tamil</li>
+                                <li>Jaya Max India</li>
+                                <li>Jaya TV</li>
+                                <li>Raj Music</li>
+                                <li>Sun TV</li>
+                                <li>Sun TV US</li>
+                                <li>KTV</li>
+                                <li>KTV US</li>
+                                <li>Raj News 24×7</li>
+                                <li>Makkal TV</li>
+                                <li>Raj TV</li>
+                                <li>Raj Digital Plus</li>
+                                <li>Jaya Max</li>
+                                <li>Jaya Plus Tamil</li>
+                                <li>Jaya Movies</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    NEPALI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>My Nepal</li>
+                                <li>NTV Plus</li>
+                                <li>Mountain TV</li>
+                                <li>Nepal TV</li>
+                                <li>Image Channel</li>
+                                <li>Vision Nepal</li>
+                                <li>Kantipur TV</li>
+                                <li>Himalaya TV</li>
+                                <li>News – 24</li>
+                                <li>Kantipur Gold</li>
+                                <li>Avenues TV</li>
+                                <li>Nepal 1</li>
+                                <li>ABC News Nepal</li>
+                                <li>Nepal Filmy TV</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    CRICKET CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Willow Cricket HD</li>
+                                <li>Star Sports 1 HD</li>
+                                <li>Star Sports 2 HD</li>
+                                <li>Star Sports 3 HD</li>
+                                <li>Star Sports 4 HD</li>
+                                <li>Sky Sports HD 1</li>
+                                <li>Sky Sports HD 2</li>
+                                <li>Sky Sports HD 3</li>
+                                <li>Sky Sports HD 4</li>
+                                <li>Sky Sports HD 5</li>
+                                <li>Sony ESPN HD</li>
+                                <li>Sony Six HD</li>
+                                <li>OSN Cricket HD</li>
+                                <li>Ten Sports 1</li>
+                                <li>Ten Sports 2</li>
+                                <li>Ten Sports 3</li>
+                                <li>PTV Sports</li>
+                                <li>Geo Super</li>
+                                <li>Ten1 Sports HD</li>
+                                <li>Ten Cricket</li>
+                                <li>Ten Sports</li>
+                                <li>Sony Six</li>
+                                <li>378 PPV Sports 0 HD</li>
+                                <li>379 PPV Sports 1 HD</li>
+                                <li>380 PPV Sports 2 HD</li>
+                                <li>383 ESPN News HD</li>
+                                <li>384 ESPNU HD</li>
+                                <li>385 ESPN HD</li>
+                                <li>386 ESPN2 HD</li>
+                                <li>387 Sky Sports News</li>
+                                <li>388 FOX Sports 1 News</li>
+                                <li>389 FOX Sports 2 News</li>
+                                <li>390 MLB Network HD</li>
+                                <li>391 NHL Network HD</li>
+                                <li>392 NFL Network HD</li>
+                                <li>393 NBA TV HD</li>
+                                <li>394 FOX Sports Detroit HD</li>
+                                <li>395 NBCSN HD</li>
+                                <li>396 Fight Network HD</li>
+                                <li>397 Tennis HD</li>
+                                <li>398 Bein Sports HD</li>
+                                <li>399 CBS SN HD</li>
+                                <li>400 NBC Golf HD</li>
+                                <li>403 PAC – 12 Bay Area</li>
+                                <li>404 PAC – 12 Arizona</li>
+                                <li>405 PAC – 12 Oregon</li>
+                                <li>406 PAC – 12 Network</li>
+                                <li>407 PAC – 12 Los Angeles</li>
+                                <li>408 PAC – 12 Washington</li>
+                                <li>409 PAC – 12 Mountain</li>
+                                <li>410 SNO HD</li>
+                                <li>411 SNE HD</li>
+                                <li>412 SN1 HD</li>
+                                <li>413 SN360 HD</li>
+                                <li>414 SNWL HD</li>
+                                <li>415 SNP</li>
+                                <li>416 Willow Cricket HD</li>
+                                <li>418 WWE HD</li>
+                                <li>419 TSN1 HD</li>
+                                <li>420 TSN2 HD</li>
+                                <li>421 TSN3 HD</li>
+                                <li>422 TSN4 HD</li>
+                                <li>423 TSN5 HD</li>
+                                <li>424 BTN HD</li>
+                                <li>427 Sky Sports 1 HD</li>
+                                <li>428 Sky Sports 2 HD</li>
+                                <li>429 Sky Sports 3 HD</li>
+                                <li>430 Sky Sports 4 HD</li>
+                                <li>431 Sky Sports 5 HD</li>
+                                <li>432 Sky Sports F1 HD</li>
+                                <li>436 Star Sports 1 HD</li>
+                                <li>437 Star Sports 2 HD</li>
+                                <li>438 Star Sports 3 HD</li>
+                                <li>439 Star Sports 4 HD</li>
+                                <li>440 Ten Sports 1</li>
+                                <li>441 Ten Sports 2</li>
+                                <li>442 Ten Sports 3</li>
+                                <li>443 Ten Sports HD</li>
+                                <li>444 Ten Golf HD</li>
+                                <li>445 Sony Six HD</li>
+                                <li>446 Geo Super</li>
+                                <li>447 PTV Sports</li>
+                                <li>448 Star Cricket HD</li>
+                                <li>450 Neo Sports</li>
+                                <li>451 Star Sports 1</li>
+                                <li>452 Star Sports 2</li>
+                                <li>453 Star Sports 3</li>
+                                <li>454 Star Sports 4</li>
+                                <li>455 Bein Sports 1 HD</li>
+                                <li>456 Bein Sports 2 HD</li>
+                                <li>457 Bein Sports 3 HD</li>
+                                <li>458 Bein Sports 4 HD</li>
+                                <li>459 Bein Sports 5 HD</li>
+                                <li>460 Bein Sports 6 HD</li>
+                                <li>461 Bein Sports 7 HD</li>
+                                <li>462 Bein Sports 8 HD</li>
+                                <li>463 Bein Sports 9 HD</li>
+                                <li>464 Bein Sports 10 HD</li>
+                                <li>465 Bein Sports 11 HD</li>
+                                <li>466 Bein Sports 12 HD</li>
+                                <li>467 Bein Sports 13 HD</li>
+                                <li>468 Chelsea TV</li>
+                                <li>476 Premier Sports HD</li>
+                                <li>477 Euro Sport 1 HD</li>
+                                <li>478 Euro Sport 2 HD</li>
+                                <li>510 BT Sports 1 HD</li>
+                                <li>511 BT Sports 2 HD</li>
+                                <li>512 BT Sports 3 HD</li>
+                                <li>513 BT Sports Extra HD</li>
+                                <li>514 Box Nation (UK)</li>
+                                <li>515 Racing Channel</li>
+                                <li>516 At The Races</li>
+                                <li>523 NHL Centre Ice 1HD</li>
+                                <li>524 NHL Centre Ice 2HD</li>
+                                <li>525 NHL Centre Ice 3HD</li>
+                                <li>526 NHL Centre Ice 4HD</li>
+                                <li>527 NHL Centre Ice 5HD</li>
+                                <li>528 NHL Centre Ice 6HD</li>
+                                <li>529 NHL Centre Ice 7HD</li>
+                                <li>530 NHL Centre Ice 8HD</li>
+                                <li>531 NHL Centre Ice 9HD</li>
+                                <li>532 NHL Centre Ice 10HD</li>
+                                <li>533 NHL Centre Ice 11HD</li>
+                                <li>534 NHL Centre Ice 12HD</li>
+                                <li>545 NBA League Pass 1 HD</li>
+                                <li>546 NBA League Pass 2 HD</li>
+                                <li>547 NBA League Pass 3 HD</li>
+                                <li>548 NBA League Pass 4 HD</li>
+                                <li>549 NBA League Pass 5 HD</li>
+                                <li>550 NBA League Pass 6 HD</li>
+                                <li>551 NBA League Pass 7 HD</li>
+                                <li>552 NBA League Pass 8 HD</li>
+                                <li>553 NBA League Pass 9 HD</li>
+                                <li>554 NBA League Pass 10 HD</li>
+                                <li>2601 MLB Extra Innings 1 HD</li>
+                                <li>2602 MLB Extra Innings 2 HD</li>
+                                <li>2603 MLB Extra Innings 3 HD</li>
+                                <li>2604 MLB Extra Innings 4 HD</li>
+                                <li>2605 MLB Extra Innings 5 HD</li>
+                                <li>2606 MLB Extra Innings 6 HD</li>
+                                <li>2607 MLB Extra Innings 7 HD</li>
+                                <li>2608 MLB Extra Innings 8 HD</li>
+                                <li>2609 MLB Extra Innings 9 HD</li>
+                                <li>2610 MLB Extra Innings 10 HD</li>
+                                <li>2611 MLB Extra Innings 11 HD</li>
+                                <li>2612 MLB Extra Innings 12 HD</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    ISLAMIC CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>ATV</li>
+                                <li>ATN USA</li>
+                                <li>ATN News</li>
+                                <li>ATN Europe</li>
+                                <li>ATN Afghan</li>
+                                <li>Ariana TV USA</li>
+                                <li>Ariana TV Afghan</li>
+                                <li>Afghan INT</li>
+                                <li>1TV</li>
+                                <li>Medine TV</li>
+                                <li>Quran TV</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    KIDS CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Nursery Rhymes</li>
+                                <li>Babies Learning Channel</li>
+                                <li>Sky Cinema Disney HD</li>
+                                <li>Sky Cinema Family HD</li>
+                                <li>Family Jr</li>
+                                <li>Baby TV</li>
+                                <li>Disney Jr USA</li>
+                                <li>Tree House HD</li>
+                                <li>Teen Nick</li>
+                                <li>Cartoon Network</li>
+                                <li>Tele Toon HD</li>
+                                <li>Disney Channel USA</li>
+                                <li>Disney XD HD</li>
+                                <li>Disney Channel HD</li>
+                                <li>Nickelodeon USA</li>
+                                <li>Nick Jr USA</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    ENGLISH CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>CNN USA HD</li>
+                                <li>CNN Internation HD</li>
+                                <li>CBC News HD</li>
+                                <li>Bloomberg TV US</li>
+                                <li>ABC News HD</li>
+                                <li>FOX News HD</li>
+                                <li>BNN HD</li>
+                                <li>CNBC World</li>
+                                <li>CNBC USA HD</li>
+                                <li>MSNBC</li>
+                                <li>HBO East</li>
+                                <li>HBO West</li>
+                                <li>HBO Signature East</li>
+                                <li>HBO Family</li>
+                                <li>HBO Latino</li>
+                                <li>Gold Super Movies HD 1</li>
+                                <li>Gold Super Movies HD 2</li>
+                                <li>Gold Super Movies HD 3</li>
+                                <li>Gold Super Movies HD 4</li>
+                                <li>Gold PPV Movies 1 HD</li>
+                                <li>Gold PPV Movies 2 HD</li>
+                                <li>Gold PPV Movies 3 HD</li>
+                                <li>Gold PPV Movies 4 HD</li>
+                                <li>Super Channel 1 HD</li>
+                                <li>Super Channel 2 HD</li>
+                                <li>Super Channel 3 HD</li>
+                                <li>Super Channel 4 HD</li>
+                                <li>HGTV USA</li>
+                                <li>HLN HD</li>
+                                <li>C-Span 1 HD</li>
+                                <li>C-Span 2 HD</li>
+                                <li>C-Span 3 HD</li>
+                                <li>Weather Network Toronto HD</li>
+                                <li>Discovery Velocity</li>
+                                <li>Velocity HD</li>
+                                <li>Nat Geo USA HD</li>
+                                <li>FX USA HD</li>
+                                <li>CW East HD</li>
+                                <li>CW West HD</li>
+                                <li>Comedy Central USA HD</li>
+                                <li>Animal Planet USA HD</li>
+                                <li>Bravo USA HD</li>
+                                <li>AMC USA HD</li>
+                                <li>WTXL ABC727 HD</li>
+                                <li>History USA HD</li>
+                                <li>Discovery USA HD</li>
+                                <li>Discovery UK HD</li>
+                                <li>Travel USA HD</li>
+                                <li>VH1 USA</li>
+                                <li>VH1 UK HD</li>
+                                <li>FOX USA HD</li>
+                                <li>showcase HD</li>
+                                <li>OWN HD</li>
+                                <li>Slice HD</li>
+                                <li>W Network E HD</li>
+                                <li>GSN HD</li>
+                                <li>CBC Manitoba HD</li>
+                                <li>CTV Winnipeg HD</li>
+                                <li>OMNI HD Vancouver</li>
+                                <li>OMNI 1 HD</li>
+                                <li>OMNI 2 HD</li>
+                                <li>FXX HD</li>
+                                <li>Discovery Shed HD</li>
+                                <li>Discovery ID EX HD</li>
+                                <li>Discovery Showcase HD</li>
+                                <li>Discovery Science UK HD</li>
+                                <li>Travel Plus</li>
+                                <li>Food Network UK</li>
+                                <li>MTV HD</li>
+                                <li>MTV2 HD</li>
+                                <li>BET</li>
+                                <li>HIFI HD</li>
+                                <li>USA Network</li>
+                                <li>Comedy HD</li>
+                                <li>Life Time</li>
+                                <li>Good Food</li>
+                                <li>Food Network HD</li>
+                                <li>DIY Network</li>
+                                <li>Cooking Channel</li>
+                                <li>HGTV HD</li>
+                                <li>E! HD</li>
+                                <li>A&E CA HD</li>
+                                <li>Spike HD</li>
+                                <li>TruTV USA HD</li>
+                                <li>A&E HD</li>
+                                <li>Discovery History</li>
+                                <li>History HD</li>
+                                <li>H2 USA</li>
+                                <li>TLC UK</li>
+                                <li>TLC HD</li>
+                                <li>Nasa HD</li>
+                                <li>Alibi</li>
+                                <li>Hallmark</li>
+                                <li>Oxygen</li>
+                                <li>We TV</li>
+                                <li>AMC HD</li>
+                                <li>Bravo HD</li>
+                                <li>The Weather Net Canada</li>
+                                <li>CBC HD</li>
+                                <li>Syfy US</li>
+                                <li>CHCH</li>
+                                <li>BBC America</li>
+                                <li>ABC HD</li>
+                                <li>ABC Family</li>
+                                <li>TNT USA</li>
+                                <li>TBS USA HD</li>
+                                <li>World Fishing</li>
+                                <li>Cottage Life</li>
+                                <li>Space HD</li>
+                                <li>showcase USA HD</li>
+                                <li>FYI HD</li>
+                                <li>CBS HD</li>
+                                <li>LMN HD</li>
+                                <li>Reelz HD</li>
+                                <li>Vermont PBS HD</li>
+                                <li>Vermont PBS Plus HD</li>
+                                <li>Global Montreal HD</li>
+                                <li>CTV Montreal HD</li>
+                                <li>City TV Montreal HD</li>
+                                <li>CTV Vancouver HD</li>
+                                <li>CTV Toronto HD</li>
+                                <li>City TV HD Vancouver HD</li>
+                                <li>City TV Toronto HD</li>
+                                <li>Global Toronto HD</li>
+                                <li>Vision TV</li>
+                                <li>CP24 HD</li>
+                                <li>Global Edmonton HD</li>
+                                <li>Global Vancouver HD</li>
+                                <li>NBC HD</li>
+                                <li>FOX HD</li>
+                                <li>ABC Spark HD</li>
+                                <li>Love Nature HD</li>
+                                <li>Discovery HD</li>
+                                <li>Discovery Channel UK</li>
+                                <li>Animal Planet HD</li>
+                                <li>Animal Planet UK</li>
+                                <li>National Geographic HD</li>
+                                <li>National Geographic UK</li>
+                                <li>Nat Geo Wild HD</li>
+                                <li>Nat Geo Wild HD UK</li>
+                                <li>Discovery Science HD</li>
+                                <li>DMAX</li>
+                                <li>ID HD</li>
+                                <li>Science Channel HD</li>
+                                <li>History UK</li>
+                                <li>H2 UK</li>
+                                <li>Eden</li>
+                                <li>RT Documentory</li>
+                                <li>CBS News HD</li>
+                                <li>CTV NEWS HD</li>
+                                <li>CNN USA HD</li>
+                                <li>CNN Internation HD</li>
+                                <li>CBC News HD</li>
+                                <li>Bloomberg TV US</li>
+                                <li>ABC News HD</li>
+                                <li>FOX News HD</li>
+                                <li>BNN HD</li>
+                                <li>CNBC World</li>
+                                <li>CNBC USA HD</li>
+                                <li>MSNBC</li>
+                                <li>SKY News HD</li>
+                                <li>BBC World News</li>
+                                <li>BBC News</li>
+                                <li>France 24</li>
+                                <li>The Weather Network</li>
+                                <li>Al Jazeera</li>
+                                <li>RT International</li>
+                                <li>RT Today HD</li>
+                                <li>RT UK</li>
+                                <li>WGN TV</li>
+                                <li>BBC One HD</li>
+                                <li>BBC Two HD</li>
+                                <li>BBC Three HD</li>
+                                <li>BBC Four HD</li>
+                                <li>Sky Living</li>
+                                <li>Sky Arts</li>
+                                <li>Sky Atlantic</li>
+                                <li>Sky One</li>
+                                <li>Sky Two</li>
+                                <li>ITV BE</li>
+                                <li>ITV 1 HD</li>
+                                <li>ITV 2 HD</li>
+                                <li>ITV 3 HD</li>
+                                <li>ITV 4 HD</li>
+                                <li>Vice Land</li>
+                                <li>London Live</li>
+                                <li>Church</li>
+                                <li>Hope TV</li>
+                                <li>AFTV</li>
+                                <li>Day Star</li>
+                                <li>TWN</li>
+                                <li>JCTV</li>
+                                <li>TBN</li>
+                                <li>BYU TV</li>
+                                <li>CBN</li>
+                                <li>CTNi</li>
+                                <li>CTVN</li>
+                                <li>CYC</li>
+                                <li>GLC</li>
+                                <li>CTN</li>
+                                <li>Miracle</li>
+                                <li>KSCE</li>
+                                <li>God TV</li>
+                                <li>HBO East</li>
+                                <li>HBO West</li>
+                                <li>HBO Signature East</li>
+                                <li>HBO Family</li>
+                                <li>HBO Latino</li>
+                                <li>W Movies HD</li>
+                                <li>HBO Comedy</li>
+                                <li>HBO Zone</li>
+                                <li>Star World Premier</li>
+                                <li>Cinemax East</li>
+                                <li>Star Movies</li>
+                                <li>Star Movies Select</li>
+                                <li>Star World</li>
+                                <li>Zee Studio HD</li>
+                                <li>Action Max East</li>
+                                <li>Cinemax More Max</li>
+                                <li>Showtime East</li>
+                                <li>Showtime West</li>
+                                <li>Showtime 2</li>
+                                <li>Showtime Showcase</li>
+                                <li>Showtime Beyond</li>
+                                <li>The Movie Channel</li>
+                                <li>The Movie Channel Extra</li>
+                                <li>Starz Encore</li>
+                                <li>Starz East</li>
+                                <li>Starz Edge</li>
+                                <li>Starz Cinema</li>
+                                <li>Starz Comedy</li>
+                                <li>Starz Kids & Family</li>
+                                <li>Sky Movies Action</li>
+                                <li>Sky Movies Comedy</li>
+                                <li>Sky Movies Drama & Romance</li>
+                                <li>Sky Movies Modern Great</li>
+                                <li>Sky Movies Premier</li>
+                                <li>Sky Movies Showcase</li>
+                                <li>Sky Movies Sci Fi & Horror</li>
+                                <li>Sky Movies Thriller</li>
+                                <li>Sky Movies Select</li>
+                                <li>Sony Movies</li>
+                                <li>Movies 4 Men</li>
+                            </ul>
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    URDU CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Hum World</li>
+                                <li>Hum Sitaray US</li>
+                                <li>Hum TV Pak</li>
+                                <li>Hum Masala</li>
+                                <li>Ary News Pak</li>
+                                <li>Ary Digital Pak</li>
+                                <li>Ary Zindagi Pak</li>
+                                <li>Hum Europe</li>
+                                <li>Zee Zindagi TV</li>
+                                <li>Geo News US</li>
+                                <li>Geo News</li>
+                                <li>Geo Ent US</li>
+                                <li>Ary Digital US</li>
+                                <li>Ary Music US</li>
+                                <li>Ary News US</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    PORTUGESE
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>RTP1</li>
+                                <li>RTP2</li>
+                                <li>RTP INT</li>
+                                <li>RTP ACORES</li>
+                                <li>RTP MEMORIA</li>
+                                <li>RTP AFRICA</li>
+                                <li>TV GLOBO</li>
+                                <li>TV GLOBO INT</li>
+                                <li>TVI 24</li>
+                                <li>TV RECORD</li>
+                                <li>TV RECORD EU</li>
+                                <li>TV RECORD INT</li>
+                                <li>TV SERIES</li>
+                                <li>TV INT</li>
+                                <li>CMTV</li>
+                                <li>ABOLA TV</li>
+                                <li>SIC</li>
+                                <li>SIC CARAS</li>
+                                <li>SIC NOTICIAS</li>
+                                <li>SIC MULHER</li>
+                                <li>BENFICA TV1</li>
+                                <li>SPORT TV1</li>
+                                <li>SPORT TV2</li>
+                                <li>SPORT TV3</li>
+                                <li>SPORT TV4</li>
+                                <li>SPORT TV5</li>
+                                <li>SPORTING TV</li>
+                                <li>PORTO CANAL</li>
+                                <li>CANAL PANDA</li>
+                                <li>DISNEY JR</li>
+                                <li>CAZAY PESCA</li>
+                                <li>CINE MUNDO</li>
+                                <li>ODISSEIA</li>
+                                <li>EURO SPORT 1</li>
+                                <li>AXN PT</li>
+                                <li>AXN BLACK PT</li>
+                                <li>AXN WHITE PT</li>
+                                <li>HOLLYWOOD PT</li>
+                                <li>MOVHD PT</li>
+                                <li>FOX PT</li>
+                                <li>FOXCRIME PT</li>
+                                <li>FOXMOVIES PT</li>
+                                <li>HISTORIA PT</li>
+                                <li>NATGEOWILD PT</li>
+                                <li>SYEY PT</li>
+                                <li>TV CINE 1</li>
+                                <li>TV CINE 2</li>
+                                <li>TV CINE 3</li>
+                                <li>TV CINE 4</li>
+                            </ul>
+                            
                         </div>
                     </div>
+                    <div class="col-2">
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    PAKISTANI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Hum World</li>
+                                <li>Hum Sitaray US</li>
+                                <li>Hum TV Pak</li>
+                                <li>Hum Masala</li>
+                                <li>Ary News Pak</li>
+                                <li>Ary Digital Pak</li>
+                                <li>Ary Zindagi Pak</li>
+                                <li>Hum Europe</li>
+                                <li>Zee Zindagi TV</li>
+                                <li>Geo News US</li>
+                                <li>Geo News</li>
+                                <li>Geo Ent US</li>
+                                <li>Ary Digital US</li>
+                                <li>Ary Music US</li>
+                                <li>Ary News US</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    GUJRATI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>TV9 Gujarati</li>
+                                <li>Colors Gujarati</li>
+                                <li>ETV Gujarati</li>
+                                <li>VTV Gujarati</li>
+                                <li>CNBC Bazaar</li>
+                                <li>Sandesh News</li>
+                                <li>Lakshaya News</li>
+                                <li>ABP Asmita</li>
+                                <li>Garv Shri Swaminarayan</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    ARABIC CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>MTV Lebanon</li>
+                                <li>LBC Sat</li>
+                                <li>LDC</li>
+                                <li>Future TV</li>
+                                <li>NBN</li>
+                                <li>OTV</li>
+                                <li>MBC 1</li>
+                                <li>MBC 2</li>
+                                <li>MBC 3</li>
+                                <li>MBC 4</li>
+                                <li>MBC Drama</li>
+                                <li>MBC Bollywood</li>
+                                <li>MBC Action</li>
+                                <li>MBC Master</li>
+                                <li>MBC Master 2</li>
+                                <li>MBC MAX</li>
+                                <li>MBC Pro Sports 1</li>
+                                <li>MBC Pro Sports 2</li>
+                                <li>MBC Pro Sports 3</li>
+                                <li>MBC Pro Sports 4</li>
+                                <li>CBC Arabic</li>
+                                <li>CBC 2</li>
+                                <li>CBC Drama</li>
+                                <li>CBC Extra</li>
+                                <li>CBC Sofra</li>
+                                <li>Rotana Cinema</li>
+                                <li>Rotana Classic</li>
+                                <li>Rotana Clip</li>
+                                <li>Rotana Masriya</li>
+                                <li>Rotana Khalijiah</li>
+                                <li>Rotana Music</li>
+                            </ul>    
+                        </div>
     
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    FILIPINO CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>GMA</li>
+                                <li>TFC</li>
+                                <li>KAPATID</li>
+                                <li>FTV</li>
+                                <li>SMNI</li>
+                                <li>GMA Life TV</li>
+                                <li>GMA News</li>
+                                <li>GMA Pinoy TV</li>
+                                <li>ANC HD</li>
+                                <li>ANC Dating</li>
+                                <li>CNN Philippines</li>
+                                <li>TV5 HD</li>
+                            </ul>
+                            
+                        </div>
     
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    AFGHANI CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Tamandon TV</li>
+                                <li>Makkah TV</li>
+                                <li>Tolo TV</li>
+                                <li>Tolo News</li>
+                                <li>Sarood TV</li>
+                                <li>Sky News</li>
+                                <li>BBC News</li>
+                                <li>Shamshad</li>
+                                <li>Payvand TV</li>
+                                <li>Pashto TV</li>
+                                <li>Negaah</li>
+                                <li>Lemar</li>
+                                <li>Khurshid TV</li>
+                            </ul>
+                            
+                        </div>
     
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Support</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2024 Baytv. All rigths reserved.</p>
-                    <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    AFRICAN/JAMAICAN CHANNELS
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>TVJ</li>
+                                <li>JNN</li>
+                                <li>RETV</li>
+                                <li>Jsports</li>
+                                <li>ETN</li>
+                                <li>Adom TV</li>
+                                <li>Ghana TV</li>
+                                <li>Ghana Entertainment</li>
+                                <li>Ghana Sports</li>
+                                <li>TV3 Ghana</li>
+                                <li>Joy News</li>
+                                <li>Joy Prime</li>
+                                <li>Congo TV</li>
+                                <li>EBC Ethiopia</li>
+                                <li>NTA</li>
+                                <li>SNTV</li>
+                                <li>Bulsho TV</li>
+                                <li>ESTV</li>
+                                <li>Jubaland</li>
+                                <li>Oromiyaa</li>
+                                <li>Puntland</li>
+                                <li>Somali News</li>
+                                <li>StarTV</li>
+                                <li>ENN Ethiopia</li>
+                                <li>Nollywood TV</li>
+                                <li>Somali Cable</li>
+                                <li>Universal</li>
+                                <li>ZTV Ghana</li>
+                                <li>Kalsan TV</li>
+                                <li>Africa 24</li>
+                                <li>Africa TV</li>
+                                <li>AIT Int’l</li>
+                                <li>Channels 24</li>
+                                <li>ANN 7</li>
+                                <li>Africa TV 1</li>
+                                <li>Africa TV 2</li>
+                                <li>Africa TV 3</li>
+                                <li>Neem TV</li>
+                            </ul>
+                            
+                        </div>
+    
+                        <div class="accordion-content">
+                            <header>
+                                <span class="accordion-content-title">
+                                    SPANISH
+                                  </span>
+                                <i class="fa-solid fa-plus"></i>
+                            </header>
+                            <ul class="accordion-content-description">
+                                <li>Galavision</li>
+                                <li>Univision East</li>
+                                <li>Univision West</li>
+                                <li>Telemundo East</li>
+                                <li>Telemundo West</li>
+                                <li>Unimas</li>
+                                <li>BEIN SP</li>
+                                <li>Fox Deportes SP</li>
+                                <li>GoITV</li>
+                                <li>CNN SP</li>
+                                <li>Aztica</li>
+                                <li>ESPN Deportes SP</li>
+                                <li>Univision Deportes SP</li>
+                                <li>Discovery SP</li>
+                                <li>HBO Latino SP</li>
+                                <li>TV Columbia</li>
+                                <li>Pasiones</li>
+                                <li>Centromerica TV</li>
+                                <li>TVE SP</li>
+                                <li>Intereconomia TV</li>
+                                <li>Aragon Television</li>
+                                <li>DXTV</li>
+                                <li>TV Canaria</li>
+                                <li>TNT SP</li>
+                                <li>Teledeporte</li>
+                                <li>Telecinco</li>
+                                <li>TCM SP</li>
+                                <li>Syfy SP</li>
+                                <li>Nova SP</li>
+                                <li>National Geographic SP</li>
+                                <li>National Geographic Wild SP</li>
+                                <li>Disney Channel SP</li>
+                                <li>Disney XD SP</li>
+                                <li>Disney Jr SP</li>
+                                <li>Comedy Central SP</li>
+                                <li>Cosmopolitan</li>
+                                <li>Cuatro SP</li>
+                                <li>Desportes HD SP</li>
+                                <li>FDF SP</li>
+                                <li>Fox SP</li>
+                                <li>Fox Life SP</li>
+                                <li>Hollywood SP</li>
+                                <li>Galicia TV SP</li>
+                                <li>LA1 SP</li>
+                                <li>LA2 SP</li>
+                                <li>LA Extra SP</li>
+                                <li>Movistar F1</li>
+                                <li>Movistar Moto</li>
+                                <li>Eurosport SP</li>
+                                <li>A&E SP</li>
+                                <li>AXN SP</li>
+                                <li>AXN White SP</li>
+                                <li>Antenna 3</li>
+                                <li>Calle 13</li>
+                                <li>Clan TVE</li>
+                                <li>Caza SP</li>
+                                <li>Canal Odisea</li>
+                                <li>Canal Cocina</li>
+                                <li>Canal Extra</li>
+                                <li>Canal Toros</li>
+                            </ul>
+                            
+                        </div>
+                        
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
-         <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line scrollup__icon"></i>
-        </a>
 
-        <!--=============== SCROLL REVEAL===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-        
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--======================Pricing===================================-->
+        <div class="pricing">
+            <h2 class="section__title">Our Pricing <b>Plans</b></h2>
+            <div class="pricing-card-container">
+                <div class="normal-card card">
+                    <h2>Monthly</h2>
+                    <h1>$20</h1>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                    <div class="list-feature">
+                        <p><i class="fa-solid fa-check"></i> 12,000+ TV Channels, Movies & Series</p>
+                        <p><i class="fa-solid fa-check"></i> 4K / Ultra HD Picture Quality</p>
+                        <p><i class="fa-solid fa-check"></i> FREE Channels & VOD updates</p>
+                        <p><i class="fa-solid fa-check"></i> 99.9% Server Uptime</p>
+                        <p><i class="fa-solid fa-check"></i> Non-Contractual Service</p>
+                        <p><i class="fa-solid fa-check"></i> Anti Freeze Technology</p>
+                        <p><i class="fa-solid fa-check"></i> Netflix, Amazon Prime, Hotstar, Aha recorded</p>
+                        <p><i class="fa-solid fa-check"></i> 7 Days Catch Up / EPG for All Indian, US, UK and European
+                            Channels</p>
+                    </div>
+
+                    <a href="#">Choose Plan</a>
+                </div>
+                <div class="special-card card">
+                    <div class="corner-label">Best Plan</div>
+                    <h2>Yearly</h2>
+                    <h1>$240</h1>
+
+                    <div class="list-feature">
+                        <p><i class="fa-solid fa-check"></i> 12,000+ TV Channels, Movies & Series</p>
+                        <p><i class="fa-solid fa-check"></i> 4K / Ultra HD Picture Quality</p>
+                        <p><i class="fa-solid fa-check"></i> FREE Channels & VOD updates</p>
+                        <p><i class="fa-solid fa-check"></i> 99.9% Server Uptime</p>
+                        <p><i class="fa-solid fa-check"></i> Non-Contractual Service</p>
+                        <p><i class="fa-solid fa-check"></i> Anti Freeze Technology</p>
+                        <p><i class="fa-solid fa-check"></i> Netflix, Amazon Prime, Hotstar, Aha recorded</p>
+                        <p><i class="fa-solid fa-check"></i> 7 Days Catch Up / EPG for All Indian, US, UK and European
+                            Channels</p>
+                    </div>
+
+                    <a href="#">Choose Plan</a>
+                </div>
+                <div class="normal-card card">
+                    <h2>Yearly+</h2>
+                    <h1>$500</h1>
+
+                    <div class="list-feature">
+                        <p><i class="fa-solid fa-check"></i> 12,000+ TV Channels, Movies & Series</p>
+                        <p><i class="fa-solid fa-check"></i> 4K / Ultra HD Picture Quality</p>
+                        <p><i class="fa-solid fa-check"></i> FREE Channels & VOD updates</p>
+                        <p><i class="fa-solid fa-check"></i> 99.9% Server Uptime</p>
+                        <p><i class="fa-solid fa-check"></i> Non-Contractual Service</p>
+                        <p><i class="fa-solid fa-check"></i> Netflix, Amazon Prime, Hotstar, Aha recorded</p>
+                        <p><i class="fa-solid fa-check"></i> Works on 3 devices</p>
+                        <p><i class="fa-solid fa-check"></i> 7 Days Catch Up / EPG for All Indian, US, UK and European
+                            Channels</p>
+                    </div>
+
+                    <a href="#">Choose Plan</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!--==================== SUBSCRIBE ====================-->
+        <div class="contact-us">
+            <h2 class="section__title">Contact <b>Us</b></h2>
+            <div class="contact-us-container">
+                <div class="map-area">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.2687235438807!2d-118.11192322518991!3d33.9599319226005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d20afd88fa93%3A0xfa901e2187f5ce19!2s9040%20Telegraph%20Rd%2C%20Downey%2C%20CA%2090240%2C%20USA!5e0!3m2!1sen!2sin!4v1722152143875!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="form-area">
+                    <h2 class="section__title">Get In <b>Touch</b></h2>
+                    <div class="input-container">
+                        <input placeholder="Your Name" class="input-field" type="text">
+                        <label for="input-field" class="input-label">Your name</label>
+                        <span class="input-highlight"></span>
+                    </div>
+                    <div class="input-container">
+                        <input placeholder="Your Email" class="input-field" type="text">
+                        <label for="input-field" class="input-label">Your Email</label>
+                        <span class="input-highlight"></span>
+                    </div>
+                    <div class="input-container">
+                        <textarea placeholder="Your Message" class="input-field" rows="3" cols="50"></textarea>
+                        <label for="input-field" class="input-label">Your Message</label>
+                        <span class="input-highlight"></span>
+                    </div>
+                    <br>
+                    <a href="#">Send Message</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Bay TV</h3>
+                    <p class="footer__description">Satisfy your curiosity and give us a try
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Plan y Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2024 Baytv. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+     <script>
+        const accordionContent = document.querySelectorAll(".accordion-content");
+
+accordionContent.forEach((item,index)=>{
+    let header = item.querySelector("header");
+    header.addEventListener("click", ()=>{
+        item.classList.toggle("is-open");
+
+        let description = item.querySelector(".accordion-content-description");
+        if(item.classList.contains("is-open")){
+            // Scrollheight property return the height of
+            // an element including padding
+            description.style.height=`${description.scrollHeight}px`; 
+            item.querySelector("i").classList.replace("fa-plus","fa-minus");
+        }else{
+            description.style.height = "0px";
+            item.querySelector("i").classList.replace("fa-minus","fa-plus");
+        }
+        // function to pass the index number of clicked header
+        removeOpenedContent(index); 
+    })
+})
+
+function removeOpenedContent(index){
+    accordionContent.forEach((item2,index2)=>{
+        if(index != index2){
+            item2.classList.remove("is-open");
+            let descrip = item2.querySelector(".accordion-content-description");
+            descrip.style.height="0px";
+            item2.querySelector("i").classList.replace("fa-minus","fa-plus");
+        }
+    })
+}
+     </script>
+</body>
+
 </html>
