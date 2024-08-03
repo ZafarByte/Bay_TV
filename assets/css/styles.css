@@ -605,13 +605,14 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
   font-size: 1rem;
   font-weight: 600;
   color:#000000;
+  color: #fff;
 }
 .accordion-content-description{
   height:0;
   font-size: 13px;
-  color:#000000;
   font-weight: 400;
   padding: 0 15px;
+  color: #fff;
 }
 
 
@@ -726,14 +727,14 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion-2:hover {
- color: #DA6900;
+ color: #0E373F
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 10px 18px;
   transition-delay: 1s;
-  background-color: #E68728;
+  background-color: #0E373F;
   border-radius: 20px;
   display: none;
   color: #fff;
