@@ -24,9 +24,14 @@
 </head>
 
 <body>
+    <div class="whatsapp-button">
+        <a href="https://wa.me/15622715373" target="_blank">
+            <img src="assets/img/whatsapp.png" alt="WhatsApp" style="width:40px;height:40px;">
+        </a>
+    </div>
     <header class="header" id="header">
         <nav class="nav container">
-            <img src="assets/img/logo-nav-removebg-preview.png" class="nav__logo"></img>
+            <h1 class="nav__logo"><i class="fa-solid fa-film"></i> Streamolio</h1>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -1294,7 +1299,7 @@
                             Channels</p>
                     </div>
 
-                    <a href="#">Choose Plan</a>
+                    <a href="https://www.paypal.com/paypalme/bayhosting?country.x=IN&locale.x=en_GB">Choose Plan</a>
                 </div>
                 <div class="special-card card">
                     <div class="corner-label">Best Plan</div>
@@ -1313,7 +1318,7 @@
                             Channels</p>
                     </div>
 
-                    <a href="#">Choose Plan</a>
+                    <a href="https://www.paypal.com/paypalme/bayhosting?country.x=IN&locale.x=en_GB">Choose Plan</a>
                 </div>
                 <div class="normal-card card">
                     <h2>Yearly+</h2>
@@ -1331,16 +1336,52 @@
                             Channels</p>
                     </div>
 
-                    <a href="#">Choose Plan</a>
+                    <a href="https://www.paypal.com/paypalme/bayhosting?country.x=IN&locale.x=en_GB">Choose Plan</a>
                 </div>
 
             </div>
         </div>
 
+        <!----=========FAQ============-->
+         <div class="Faq">
+            <h2 class="section__title">Frequently Asked <b>Questions</b></h2>
+            <button class="accordion-2">What Devices Does Bay TV Support?</button>
+            <div class="panel">
+              <p>BAY TV supports all sorts of devices such as Smart TVs, Firestick, MAG, Android Smartphone, Android Boxes, Enigma, DreamBox, Vu+ (…), PC, VLC, Kodi/XBMC (…), Smart TV, and more.</p>
+            </div>
+            
+            <button class="accordion-2">What Channels Does Bay TV Supply?</button>
+            <div class="panel">
+              <p>We offer Premium UK, USA, European and Asian channels, to enjoy the best movies and TV shows with Catch Up and EPG features in 4K / Ultra HD / HD quality.</p>
+            </div>
+            
+            <button class="accordion-2">How Long Does It Take To Receive My IPTV Access?</button>
+            <div class="panel">
+              <p>Once you finish the subscription process, you will receive an email within the following 3 to 60 minutes. However, if you subscribe during busy periods such as late evenings or weekends, this process might take up to 2 hours.</p>
+            </div>
+            <button class="accordion-2">What If I Don't Like Bay TV Service?</button>
+            <div class="panel">
+              <p>No worries, we offer a 15-days money-back guarantee for whatever reason to protect our buyers.</p>
+            </div>
+         </div>
 
-
-
-        <!--==================== SUBSCRIBE ====================-->
+        <!---=====================Satisfaction=====================-->
+        <div class="satisfaction">
+            <h2 class="section__title">Satifaction <b>Guaranteed</b></h2>
+            <div class="satisfaction-container">
+                <div class="satisfaction-card">
+                    <h1><i class="fa-regular fa-clock"></i></h1>
+                    <h1>24x7 Customer Support</h1>
+                    <p>We offer in-depth tutorials and client support in live chat to make installation, and streaming amazingly quick</p>
+                </div>
+                <div class="satisfaction-card">
+                    <h1><i class="fa-solid fa-dollar-sign"></i></h1>
+                    <h1>Money-Back Guarantee</h1>
+                    <p>We offer a 15-Days Money Back Guarantee if you aren’t satisfied with our IPTV service, so why not give it a try?</p>
+                </div>
+            </div>
+        </div>
+        <!--==================== Contact us ====================-->
         <div class="contact-us">
             <h2 class="section__title">Contact <b>Us</b></h2>
             <div class="contact-us-container">
@@ -1368,7 +1409,7 @@
                         <span class="input-highlight"></span>
                     </div>
                     <br>
-                    <a href="#">Send Message</a>
+                    <a href="">Send Message</a>
                 </div>
             </div>
         </div>
@@ -1421,7 +1462,7 @@
                             <a href="" class="footer__link">Team</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Plan y Pricing</a>
+                            <a href="#pricing" class="footer__link">Plan by Pricing</a>
                         </li>
                         <li class="footer__item">
                             <a href="" class="footer__link">Become a member</a>
@@ -1433,13 +1474,13 @@
                     <h3 class="footer__subtitle">Support</h3>
                     <ul>
                         <li class="footer__item">
-                            <a href="" class="footer__link">FAQs</a>
+                            <a href="" class="footer__link">Phone :- +1 (562) 222-3636</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Support Center</a>
+                            <a href="" class="footer__link">E-mail :- support@baytelevision.com</a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link">Contact Us</a>
+                            <a href="" class="footer__link">Address :- 9040 TELEGRAPH RD, DOWNEY, CA 90240 USA</a>
                         </li>
                     </ul>
                 </div>
@@ -1501,6 +1542,25 @@ function removeOpenedContent(index){
             item2.querySelector("i").classList.replace("fa-minus","fa-plus");
         }
     })
+}
+
+var acc = document.getElementsByClassName("accordion-2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
      </script>
 </body>
