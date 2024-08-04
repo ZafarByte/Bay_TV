@@ -748,7 +748,12 @@ iframe {
     width: 350px;
   
   }
-
+  .contact-us .section__title{
+    display: none;
+  }
+  .contact{
+    display: none;
+  }
   .form-area input {
     margin-bottom: 40px;
     width: 220px;
