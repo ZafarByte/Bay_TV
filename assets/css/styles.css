@@ -179,7 +179,18 @@ input {
   z-index: var(--z-fixed);
   background-color: transparent;
 }
-
+@media screen and (max-width: 767px){
+  .home__data{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .home__data p{
+    text-align: center;
+    margin-left: 65px;
+    width: 250px;
+    margin-top: -20px;
+  }
+}
 /*=============== NAV ===============*/
 .nav {
   height: var(--header-height);
@@ -226,7 +237,14 @@ input {
   flex-direction: column;
   row-gap: 2.5rem;
 }
-
+.special-whatsapp{
+  text-decoration: none;
+  padding: 7px 14px ;
+  background-color: #0EA900;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 20px;
+}
 .nav__link {
   color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
@@ -468,6 +486,7 @@ input {
 margin-right: 50px;
 margin-bottom: 30px;
 padding: 40px;
+background-color: #14505C;
 align-items: center;
 text-align: center;
 border-radius: 20px;
@@ -482,8 +501,19 @@ width: 400px;
 -moz-box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
 box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
 }
-
-
+.Feature-card h1{
+  color: #fff;
+}
+@media screen and (max-width: 767px){
+  .card-wrap{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 70px;
+  }
+  .Feature-card{
+    width: 300px;
+  }
+}
 /*=================Pricing===============*/
 .pricing-card-container{
   width: 80%;
@@ -557,6 +587,25 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
   padding: 5px 20px;
   font-weight: bold;
 }
+iframe{
+ width: 600px;
+ height: 450px;
+}
+@media screen and (max-width: 767px){
+ .pricing-card-container,.satisfaction-container,.contact-us-container{
+  flex-wrap: wrap;
+ }
+ .card,.satisfaction-card{
+  margin-bottom: 15px;
+ }
+ iframe{
+  width: 280px;
+  height: 250px;
+ }
+ .pricing-card-container{
+  width: 95%;
+ }
+}
 /*=============================channel===============*/
 .channels{
   width: 100%;
@@ -569,6 +618,7 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
 }
 .accordion{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
  justify-content: space-around;
   background: #FFF;
@@ -617,8 +667,43 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
 .accordion-2{
   color: #0E373F;
 }
+@media screen and (max-width: 767px){
+  .accordion .accordion-content{
+    width: 280px;
+  }
+.form-area{
+  padding:30px ;
+}
 
-
+.contact-us-container{
+width: 100%;
+}
+.form-area input {
+  margin-bottom: 40px;
+  width: 220px;
+}
+.form-area input {
+  margin-bottom: 30px;
+}
+.input-field {
+  display: block;
+  width: 220px;
+  margin-bottom: 40px;
+}
+.input-container textarea{
+  width: 220px;
+}
+.input-field:focus + .input-label + .input-highlight {
+  width: 50%;
+}
+.input-highlight {
+  display: none;
+}
+.input-container{
+  margin-bottom: 40px;
+}
+}
+/*--------contact us----------------*/
 .contact-us-container{
   width: 70%;
   margin: auto auto 30px auto;
@@ -702,6 +787,7 @@ textarea{
   text-align: center;
   border-radius: 8px;
 }
+
 /*============================*/
 .Faq{
   width: 80%;
