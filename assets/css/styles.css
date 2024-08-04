@@ -739,7 +739,6 @@ iframe {
     width: 320px;
     margin-left: 5%;
     margin-top: 10px;
-    padding-bottom: 50px;
     border-radius: 7px;
   }
 
@@ -779,7 +778,8 @@ iframe {
     margin-bottom: 40px;
   }
   .form-area a {
-   margin-bottom: 20px;
+   margin-bottom: 40px;
+  
   }
 }
 
@@ -1087,11 +1087,7 @@ textarea {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
-  .video__container {
-    display: grid;
-    grid-template-columns: .6fr;
-    justify-content: center;
-  }
+  
 
   .place__container {
     grid-template-columns: repeat(3, max-content);
