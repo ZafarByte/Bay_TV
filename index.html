@@ -48,7 +48,7 @@
                         <a href="#pricing" class="nav__link">Pricing</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#place" class="nav__link">Contact us</a>
+                        <a href="#contact-us" class="nav__link">Contact us</a>
                     </li>
                     <li class="nav__item">
                         <a href="https://wa.me/15622715373" target="_blank" class=" special-whatsapp"><i class="fa-brands fa-whatsapp"></i> Whatsapp now</a>
@@ -150,7 +150,7 @@
             </div>
         </section>
         <!--======================Channel detail=============================-->
-        <div class="channels">
+        <div class="channels" >
             <div class="channel-container">
                 <h2 class="section__title">Channel <b>we provide</b></h2>
                 <div class="accordion">
@@ -1271,7 +1271,7 @@
 
 
         <!--======================Pricing===================================-->
-        <div class="pricing">
+        <div class="pricing" id="pricing">
             <h2 class="section__title">Our Pricing <b>Plans</b></h2>
             <div class="pricing-card-container">
                 <div class="normal-card card">
@@ -1363,17 +1363,19 @@
                 <div class="satisfaction-card">
                     <h1><i class="fa-regular fa-clock"></i></h1>
                     <h1>24x7 Customer Support</h1>
+                    <br>
                     <p>We offer in-depth tutorials and client support in live chat to make installation, and streaming amazingly quick</p>
                 </div>
                 <div class="satisfaction-card">
                     <h1><i class="fa-solid fa-dollar-sign"></i></h1>
                     <h1>Money-Back Guarantee</h1>
-                    <p>We offer a 15-Days Money Back Guarantee if you aren’t satisfied with our IPTV service, so why not give it a try?</p>
+                    <br>
+                    <p>We offer a 7-Days Money Back Guarantee if you aren’t satisfied with our IPTV service, so why not give it a try?</p>
                 </div>
             </div>
         </div>
         <!--==================== Contact us ====================-->
-        <div class="contact-us">
+        <div class="contact-us" id="contact-us">
             <h2 class="section__title  contact">Contact <b>Us</b></h2>
             <div class="contact-us-container">
                 <div class="map-area">
@@ -1526,11 +1528,9 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
+   
     this.classList.toggle("active");
 
-    /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
