@@ -668,8 +668,11 @@ iframe{
   color: #0E373F;
 }
 @media screen and (max-width: 767px){
-  .accordion .accordion-content{
-    width: 3350px;
+  .accordion 
+  {
+    width: 350px;
+  }.accordion-content{
+    width: 300px;
   }
 .form-area{
   padding:30px ;
