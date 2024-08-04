@@ -250,10 +250,10 @@ input {
 
 .special-whatsapp {
   text-decoration: none;
-  padding: 7px 14px;
+  padding: 3px 12px;
   background-color: #0EA900;
   color: #fff;
-  font-size: 17px;
+  font-size: 14px;
   border-radius: 20px;
 }
 
@@ -773,6 +773,9 @@ iframe {
 
 .input-container {
   margin-bottom: 40px;
+}
+.contact-us-container{
+  width: 100%;
 }
 }
 
