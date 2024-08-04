@@ -739,6 +739,8 @@ iframe {
     width: 320px;
     margin-left: 5%;
     margin-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 7px;
   }
 
   .contact-us-container {
@@ -776,7 +778,9 @@ iframe {
   .input-container {
     margin-bottom: 40px;
   }
-
+  .form-area a {
+   margin-bottom: 20px;
+  }
 }
 
 /*--------contact us----------------*/
