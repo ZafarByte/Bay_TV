@@ -727,55 +727,56 @@ iframe {
     width: 250px;
   }
 
-.accordion-content {
-  width: 200px;
-}
+  .accordion-content {
+    width: 200px;
+  }
 
-.accordion-content-title {
-  width: 200px;
-}
+  .accordion-content-title {
+    width: 200px;
+  }
 
-.form-area {
-  width: 350px;
-}
+  .form-area {
+    width: 320px;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
 
-.contact-us-container {
-  width: 350px;
-}
+  .contact-us-container {
+    width: 350px;
+  
+  }
 
-.form-area input {
-  margin-bottom: 40px;
-  width: 220px;
-}
+  .form-area input {
+    margin-bottom: 40px;
+    width: 220px;
+  }
 
-.form-area input {
-  margin-bottom: 30px;
-}
+  .form-area input {
+    margin-bottom: 30px;
+  }
 
-.input-field {
-  display: block;
-  width: 220px;
-  margin-bottom: 40px;
-}
+  .input-field {
+    display: block;
+    width: 220px;
+    margin-bottom: 40px;
+  }
 
-.input-container textarea {
-  width: 220px;
-}
+  .input-container textarea {
+    width: 220px;
+  }
 
-.input-field:focus+.input-label+.input-highlight {
-  width: 50%;
-}
+  .input-field:focus+.input-label+.input-highlight {
+    width: 50%;
+  }
 
-.input-highlight {
-  display: none;
-}
+  .input-highlight {
+    display: none;
+  }
 
-.input-container {
-  margin-bottom: 40px;
-}
-.contact-us-container{
-  width: 100%;
-}
+  .input-container {
+    margin-bottom: 40px;
+  }
+
 }
 
 /*--------contact us----------------*/
@@ -789,10 +790,8 @@ iframe {
 }
 
 .form-area {
-
-  padding: 50px 150px 40px 30px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .form-area p {
