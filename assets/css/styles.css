@@ -184,14 +184,11 @@ input {
     margin-top: -50px;
     text-align: center;
   }
-  .home__data p{
-    text-align: center;
-    margin-left: 65px;
-    width: 250px;
-    margin-top: -20px;
-  }
   .home__data h1{
-     font-size:30px ;
+     font-size:50px ;
+  }
+  .home__data p{
+    width: 100%;
   }
 }
 /*=============== NAV ===============*/
