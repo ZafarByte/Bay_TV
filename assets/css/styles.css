@@ -720,10 +720,11 @@ iframe {
 @media screen and (max-width: 767px) {
   .accordion {
     width: 300px;
+    margin-left: -10px;
   }
 
   .accordion .accordion-content {
-    width: 200px;
+    width: 250px;
   }
 
 .accordion-content {
