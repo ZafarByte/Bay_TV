@@ -508,7 +508,7 @@ box-shadow: -1px 0px 14px 1px rgba(0,0,0,0.75);
   .card-wrap{
     flex-wrap: wrap;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 60px;
   }
   .Feature-card{
     width: 300px;
