@@ -670,9 +670,12 @@ iframe{
 @media screen and (max-width: 767px){
   .accordion 
   {
-    width: 350px;
+    width: 250px;
   }.accordion-content{
-    width: 300px;
+    width: 200px;
+  }
+  .accordion-content-title{
+    width: 200px;
   }
 .form-area{
   padding:30px ;
