@@ -19,6 +19,18 @@ if(navClose){
     })
 }
 
+
+
+// Existing mobile toggle button functionality
+document.querySelector('#nav-toggle').addEventListener('click', () => {
+    document.querySelector('.nav__menu').classList.toggle('show-menu');
+  });
+  
+  // New tablet toggle button functionality
+  document.querySelector('#tablet-toggle').addEventListener('click', () => {
+    document.querySelector('.nav__menu').classList.toggle('show-menu');
+  });
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
