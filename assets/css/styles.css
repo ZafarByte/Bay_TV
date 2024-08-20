@@ -999,12 +999,20 @@ textarea {
     margin-left: 170px;
   }
 }
-@media screen and (max-width: 767px){
-  iframe{
-    width: 250px;
+
+@media screen and (max-width: 767px) {
+  iframe {
+    width: 290px;
     height: 250px;
   }
+  .form-area {
+    padding: 15px;
+  }
+  .form-area a {
+    margin-left: 10px;
+  }
 }
+
 /*============================*/
 .Faq {
   width: 80%;
@@ -1066,20 +1074,23 @@ textarea {
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
 /*---------------------ipad-----------------------*/
 @media screen and (max-width: 1024px) {
   .satisfaction-card {
-    
+
     width: 290px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 820px) {
   .satisfaction-card {
-    
+
     width: 290px;
   }
 
 }
+
 /*---------------------------------------------------*/
 .satisfaction-card:hover {
   -webkit-box-shadow: -2px 0px 24px -6px rgba(0, 0, 0, 0.75);
