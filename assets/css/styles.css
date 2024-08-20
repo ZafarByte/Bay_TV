@@ -223,7 +223,11 @@ input {
   cursor: pointer;
   color: var(--white-color);
 }
-
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
 
 
 
@@ -241,13 +245,13 @@ input {
     padding: 3rem;
     transition: .4s;
   }
+  .tablet-toggle {
+    display: none; /* Show the tablet toggle button */
+  }
 }
 
-.nav__list {
-  display: flex;
-  flex-direction: column;
-  row-gap: 2.5rem;
-}
+
+
 
 .special-whatsapp {
   text-decoration: none;
