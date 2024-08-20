@@ -930,7 +930,7 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
-  contact-us-container {
+  .contact-us-container {
     flex-direction: column;
     padding-bottom: 50px;
   }
@@ -999,7 +999,12 @@ textarea {
     margin-left: 170px;
   }
 }
-
+@media screen and (max-width: 767px){
+  iframe{
+    width: 250px;
+    height: 250px;
+  }
+}
 /*============================*/
 .Faq {
   width: 80%;
