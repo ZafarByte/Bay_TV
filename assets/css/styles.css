@@ -687,6 +687,7 @@ strike {
   }
   .special-whatsapp{
     display: none;
+    width: 200px;
   }
 }
 
@@ -706,7 +707,12 @@ strike {
     display: none;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .special-whatsapp{
+    display: block;
+     padding: 3px 30px;
+  }
+}
 /*=============================changes--------------------*/
 /*=============================channel===============*/
 .channels {
