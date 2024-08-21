@@ -705,12 +705,14 @@ strike {
   }
   .special-whatsapp{
     display: none;
+    width: 200px;
   }
 }
 @media screen and (max-width: 767px) {
   .special-whatsapp{
     display: block;
      padding: 3px 30px;
+     width: 170px;
   }
 }
 /*=============================changes--------------------*/
